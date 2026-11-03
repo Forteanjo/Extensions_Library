@@ -1,19 +1,16 @@
 [versions]
-agp = "9.3.1"
-kotlin = "2.4.0"
+agp = "9.5.0"
+kotlin = "2.4.20"
 
 # Dokka for documentation
 dokka = "2.2.0"
 
 # Kotlin extensions
 
-annotationJvm = "1.10.0"
+annotationJvm = "1.11.0"
 
 #kotlinx-datetime
 kotlinx-datetime = "0.8.0"
-
-# ForteanJo libraries
-extensions_library = "1.0.8"
 
 # Android SDK settings
 android-compileSdk = "37"
@@ -36,8 +33,6 @@ androidx-annotation-jvm = { group = "androidx.annotation", name = "annotation-jv
 
 #kotlinx-datetime
 kotlinx-datetime = { group = "org.jetbrains.kotlinx", name = "kotlinx-datetime", version.ref = "kotlinx-datetime" }
-
-#kotlin-extensions_library = { module = "com.github.Forteanjo:Extensions_Library", version.ref = "extensions_library" }
 
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-test-ext-junit" }

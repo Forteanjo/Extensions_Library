@@ -68,7 +68,6 @@ android {
 
 dependencies {
     implementation(libs.androidx.annotation)
-    //implementation(libs.kotlin.extensions.library)
     implementation(project(":extensions"))
 
     testImplementation(libs.junit)
